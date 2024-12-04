@@ -1,0 +1,95 @@
+<?php
+
+return [
+    'Client registered' => "Cliente ya registrado",
+    'Please change the email, this email is already registered.' => "Con la información proporcionada ya se encuentra creada una cuenta, verifique está información e inténtelo nuevamente, de lo contrario puede ingresar con sus datos en el panel de administración y recuperar su clave.",
+    'Service Davivienda does not work' => "Servicio Davivienda no funciona",
+    'The restrictive list service does not respond' => "Servicio de listas restrictivas no responde",
+    'Restrictive user' => "Usuario restringido",
+    'At this time we cannot validate the information, please try again later.' => "En este momento no podemos validar la información, intente nuevamente más tarde.",
+    'Register success' => "Registro exitoso",
+    'Thanks for you register.' => "Gracias por registrarse",
+    "Client don't created" => "Cliente no creado",
+    "Client don't registered" => "Cliente no registrado",
+    "Client created successfully" => "Cliente creado exitosamente",
+    "Error updated client" => "Error actualizando el cliente",
+    "Error created user" => "Error creando el usuario",
+    "Created user successfully" => "Usuaurio creando exitosamente",
+    "Error validation" => "Ocurrió un error en la creación del cliente, intente nuevamente más tarde.",
+    "Error client not fount" => "Error cliente no encontrado",
+    'Some fields are required, please correct the errors and try again' => "Algunos campos son obligatorios, corrija los errores e intente nuevamente",
+
+    'Not authorized' => 'No autorizado',
+    'You do not have the necessary permissions to create users' => 'No tiene los permisos necesarios para crear usuarios',
+
+    "Maximum amount exceeded, the maximum amount allowed for your account is :totalMax COP" => "Monto máximo excedido, el monto máximo permitido para su cuenta es $ :totalMax COP",
+    "There is already a payment with the same reference number or invoice :reference" => "Ya existe un pago con el mismo número de referencia o factura :reference",
+
+    "link not found" => "El link de cobro no existe.",
+
+    //adquirencia movil medios de pago y redes de credito de cliente -> controller ApiClientNetworks
+    'Client payment methods list' => 'Lista de métodos de pago del cliente',
+    'Query client payment methods list' => 'Consulta lista de métodos de pago del cliente',
+    'Update client payment method' => 'Editar método de pago del cliente',
+    'Updated client payment method' => 'Método de pago del cliente actualizado',
+    'Client network id or Client payment method does not exists' => 'la red id o método de pago del cliente no existe',
+    'Client payment method does not exists' => 'Método de pago del cliente no existe',
+    'Query client payment method' => 'Consulta método de pago del cliente',
+    'Client network id does not exists' => 'El cliente no tiene este id de red',
+    'Client networks list' => 'Lista de redes del cliente',
+    'Query client networks list' => 'Consulta Lista de redes del cliente',
+    'Create or update client network' => 'Crear o actualizar red del cliente',
+    'Create or update client network successfully' => 'Crear o actualizar red del cliente exitosamente',
+    'Delete client network' => 'Eliminar red del cliente',
+    'Delete client network successfully' => 'Eliminar red del cliente exitosamente',
+    'Client network does not exists' => 'La Red del cliente no existe',
+    'Query client network' => 'Consulta redes del cliente',
+    'there was an error, please try again later' => 'hubo un error, por favor inténtelo de nuevo más tarde',
+    'Gateway client validate' => 'Validación cliente gateway',
+    'The client is not gateway' => 'El cliente no es tipo gateway',
+    'client validate' => 'Validación cliente',
+    'the client does not belong to a partner entity' => 'El cliente no pertenece a una entidad aliada',
+    'The client already has a network type: ' => 'El cliente ya tiene un tipo de red id: ',
+    'The payment method is not editable' => 'El método de pago no se puede editar',
+
+    //econtrol
+    'Successful consult' => 'Consulta exitosa',
+    'Error to clone rule' => 'Error al clonar regla',
+    'Clone rule' => 'Clonar regla',
+    'Error to clone filters' => 'Error al clonar filtros',
+    'Clone filters' => 'Clonar filtros',
+    'Error to add new config rule' => 'Error al agregar nueva configuracion de regla al cliente',
+    'Add new config rule' => 'Agregar nueva regla de configuracion',
+    'New rule created successfully' => 'Nueva regla creada con éxito',
+    'Create or edit rule' => 'Crear o editar regla',
+    'Save filter' => 'Guardar filtro',
+    'Error in save client filter' => 'Error al guardar el filtro del cliente',
+    'Saved client filter' => 'Filtro de cliente guardado',
+    'Remove or edit list' => 'Eliminar o editar lista',
+    'Error in remove or edit list' => 'error en eliminar o editar lista',
+    'Remove or edit list successful' => 'Eliminar o editar lista correctamente',
+    'The list or item does not exist' => 'La lista o item de lista no existen',
+    'Error to search transactions registers' => 'Error al buscar registros de transacciones',
+    'Search transactions registers' => 'Buscar registros de transacciones',
+    'Search transactions registers successful' => 'Busqueda registros de transacciones exitosa',
+
+    //econtrol archivos
+    'New file created successfully' => 'Nuevo archivo guardado con éxito',
+    'Search files registers successful' => 'Busqueda registros de transacciones exitosa',
+    'Error in create file' => 'Error al guardar el archivo',
+    'Created file successfully' => 'Archivo guardado con éxito',
+    'Create file' => 'Guardar erchivo',
+    'Error in remove file' => 'Error al eliminar el archivo',
+    'Remove file successfully' => 'Se ha eliminado el archivo',
+    'Remove file' => 'Eliminar archivo',
+    //Transacciones
+    'The transaction has no authorization number' => 'La transacción no posee un número de autorización válido',
+
+    //Reversion de transacciones
+    'The transaction you want to reverse does not belong to the client' => 'La transacción que quiere reversar no pertenece al cliente',
+    'Online reversal process can only be executed during the day of the transaction until 11:59pm' => 'Las reversiones deben realizarse dentro del mismo día de la transacción hasta las 23:59pm',
+    'The transaction is already reversed' => 'La transaccion ya fué reversada',
+    'The transaction cannot be reversed, you have insufficient funds' => 'La transacción no puede ser reversada, tiene fondos insuficientes',
+    'The transaction you want to reverse must be accepted' => 'La transacción que intenta reversar tiene que estar Aceptada'
+
+];

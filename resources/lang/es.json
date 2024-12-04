@@ -1,0 +1,10 @@
+{
+  "mobilePhone are also required": "mobilePhone es requerido",
+  "Client does not exist.": "El cliente no existe.",
+  "The clientId does not correspond to the allied entity.": "El clientId no corresponde a la entidad aliada.",
+  "Invalid keys.": "Claves inválidas.",
+  "Invalid Username or Password.": "Usuario o contraseña invalido.",
+  "permission denied.": "Permiso denegado.",
+  "restricted user.": "Usuario Restringido.",
+  "inactive user.": "Usuario Inactivo."
+}

@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Events;
+/**
+ * Description of PayPalWithdrawEvent
+ *
+ * @author Felipe
+ */
+class PayPalWithdrawEvent extends Event
+{
+    public $arr_parametros;
+
+    public function __construct($arr_parametros)
+    {
+        $this->arr_parametros = $arr_parametros;
+    }
+}
